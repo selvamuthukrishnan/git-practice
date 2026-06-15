@@ -1,0 +1,67 @@
+/* Center the card on the screen and give it a nice background color */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the white card container */
+.card {
+    background-color: white;
+    width: 320px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Make the profile image a perfect circle */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+/* Style the headings and text */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 15px 0 5px 0;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Make the button change color when you hover over it */
+.btn:hover {
+    background-color: #0056b3;
+}
